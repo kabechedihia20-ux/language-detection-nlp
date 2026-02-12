@@ -10,8 +10,8 @@ venv/
 .ipynb_checkpoints/
 
 # data (option: garder raw vide)
-data/raw/*
-data/processed/*
+# data/raw/*
+# data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
