@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# notebooks
+.ipynb_checkpoints/
+
+# data (option: garder raw vide)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# models
+models/*
+!models/.gitkeep
+
+# reports
+reports/figures/*
+!reports/figures/.gitkeep
